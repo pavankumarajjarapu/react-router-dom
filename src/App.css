@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+}
+
+form{
+  background-color: azure;
+  display: inline-block;
+  /* padding: 12px; */
+  margin: 12px;
+  border: 2px double grey;
+  border-radius: 8px;
+  box-shadow: 12px 9px 6px grey;
+}
+label{
+  display: inline-block;
+  width: 150px;
+  font-size: 20px;
+  
+}
+div{
+   padding: 10px;
+}
+input{
+  padding: 12px;
+  border-radius: 9px;
+}
+h1{
+  font-family: serif;
+  color: rgb(154, 80, 223);
+  /* -webkit-box-reflect: below 10px; */
+
+}
+button{
+  height: 30px;
+  width: 80px;
+  text-align: center;
+  background-color: rgb(105, 247, 190);
+  border-radius: 6px;
+  border: 2px solid black;
+  margin: 9px;
+  font-family: cursive;
+  color: rgb(95, 42, 4);
+  
+}
+h3{
+  color:blueviolet;
+  font-style: italic;
+  font-family:Arial, Helvetica, sans-serif;
+}
+a{
+  font-size: 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: cornflowerblue;
+  padding: 12px;
+  margin: 12px;
+}
+a:active{
+  color: brown;
+}
+nav{
+  background-color:lavender;
+  display:flex;
+  justify-content: space-evenly;
+  border-radius: 9px;
+  box-shadow: 3px 8px 6px rgb(227, 203, 249);
+}
+.bottomLink{
+  font-family: sans-serif;
+  font-style: oblique;
+  color:rgb(249, 62, 130);
+  font-size: 18px;
+
+}
+.home{
+  background-image: url("https://blog.openreplay.com/images/web-design--mobile-first-desktop-first-what/images/hero.png");
+  height: 100vh;
+  background-size: cover;
+}
+.captionDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: start;
+  height: 100vh;
+  
+ 
+ 
+}
+.caption{
+  color:#f9f510;
+  font-size: 5rem;
+  font-family:serif;
+  filter: drop-shadow(1px 13px 1px grey);
+  position: relative;
+  animation-duration: 3s;
+  animation-name: heading;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+
+}
+@keyframes heading {
+  0%   {color:rgb(240, 246, 77); left:0px; top:0px;}
+  25%  {color:rgb(246, 246, 114); left:200px; top:0px;}
+  50%  {color:rgb(159, 159, 250); left:200px; top:200px;}
+  75%  {color:rgb(248, 97, 215); left:400px; top:200px;}
+  100% {color:rgb(105, 245, 131); left:20px; top:0px;}
+  
+}
+p{
+  color: rgb(61, 75, 2);
+  font-family: cursive;
+  font-size: 2rem;
+  text-align: center;
+  background-color: azure;
+  border-radius: 5px;
+}
+.para1{
+  display:flex;
+  flex-direction: row;
+  justify-content:end;
+  align-items: end;
+  height: 100vh;
+}
